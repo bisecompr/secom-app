@@ -8,6 +8,7 @@ import Benchmark from './pages/benchmark/Benchmark'
 import Redes from './pages/benchmark/Redes'
 import Adserver from './pages/benchmark/Adserver'
 import Campanhas from './pages/Campanhas'
+import Campanhas2023 from './pages/Campanhas2023'
 
 
 const Routers = () => {
@@ -35,6 +36,9 @@ const Routers = () => {
                         </Route>
                         <Route path="/campanhas"  element={<PrivateRoute />}>
                             <Route path="/campanhas" element={<Campanhas />} />
+                        </Route>
+                        <Route path="/campanhas/2023"  element={<PrivateRoute />}>
+                            <Route path="/campanhas/2023" element={<Campanhas2023 />} />
                         </Route>
 
                         <Route path="/login" element={<Login />} />
