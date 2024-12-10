@@ -4,7 +4,7 @@ const Redes = () => {
   return (
     <div>
         
-        <iframe title="Campanhas Finalizadas 2023 - Redes Sociais" width="75%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiMWU1ZGQwZWUtOTU2MC00Zjg3LWI2ZjQtNGZlMjExNTY5ZjEyIiwidCI6IjFjYzNjNTA4LTAxYzctNDQ2MC1iZDJiLWFmZTk1ZTgwYjhhZiJ9&pageName=ReportSection6c811c3f74c96771caf5" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe title="Dash Único - SPP" width="75%" height="800" src="https://app.powerbi.com/reportEmbed?reportId=ad6fff15-c941-4be2-9515-7b90e9bceeee&autoAuth=true&ctid=38774ea0-74b4-4f1d-97da-35d43fb902fd" frameborder="0" allowFullScreen="true"></iframe>
 
     </div>
   )
